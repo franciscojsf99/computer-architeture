@@ -1,0 +1,37 @@
+## 1.0 Nuno Roma <Nuno.Roma@inesc-id.pt>
+# P3 Assembly
+
+style p3 is
+written by "Nuno Roma <Nuno.Roma@inesc-id.pt>"
+version is 1.0
+requires a2ps 4.9.7
+
+documentation is
+  "Style sheet for P3 assembly."
+end documentation
+
+alphabets are
+   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz."
+
+ancestors are
+  cpp
+end ancestors
+
+keywords in Keyword_strong are
+  ORIG, EQU, WORD, STR, TAB,  
+  NOP, ENI, DSI, CMC, STC, CLC, RET, RETN, RTI, INT, I0OP,
+  PUSH, POP, INC, DEC, NEG, COM, LOOP, RND, MUL10, SXT, I1OP,
+  SHR, SHL, SHRA, SHLA, ROR, ROL, RORC, ROLC,
+  MOV, MVBH, MVBL, XCH, ADD, ADDC, SUB, SUBB, MUL, DIV, CMP, AND, OR, XOR,
+  TEST, SLM, I2OP, 
+  BR, BR.P, BR.NP, BR.I, BR.NI, BR.E, BR.NE, BR.Z, BR.NZ, BR.C, BR.NC, BR.N, BR.NN, BR.O, BR.NO, 
+  JMP, JMP.P, JMP.NP, JMP.I, JMP.NI, JMP.E, JMP.NE, JMP.Z, JMP.NZ, JMP.C, JMP.NC, JMP.N, JMP.NN, JMP.O, JMP.NO, 
+  CALL, CALL.P, CALL.NP, CALL.I, CALL.NI, CALL.E, CALL.NE, CALL.Z, CALL.NZ, CALL.C, CALL.NC, CALL.N, CALL.NN, CALL.O, CALL.NO, 
+  ICTL, ICTL.P, ICTL.NP, ICTL.I, ICTL.NI, ICTL.E, ICTL.NE, ICTL.Z, ICTL.NZ, ICTL.C, ICTL.NC, ICTL.N, ICTL.NN, ICTL.O, ICTL.NO 
+end keywords
+
+sequences are
+    ";" Comment
+end sequences
+
+end style
